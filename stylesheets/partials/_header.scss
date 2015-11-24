@@ -1,0 +1,71 @@
+@import 'modules/colors';
+
+header {
+  padding-bottom: 25px;
+
+  i {
+    padding-right: 5px;
+  }
+}
+
+.home-icon {
+  padding-right: 0;
+  padding-top: 8px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.logo {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.navbar {
+  padding: 10px,0;
+}
+
+.navbar-default {
+  background-color: $background-blue;
+  border-color: $background-blue;
+}
+
+.nav-button {
+  text-align: center;
+  background-color: $buttons-background-1;
+  padding: 18px;
+  margin-right: 2px;
+  border-radius: 15px;
+  width: 143px;
+  height: 50px;
+}
+
+.toggle-menu-icon {
+  color: white;
+}
+
+.navbar-toggle {
+  border: 0;
+}
+
+.home-button {
+  text-align: center;
+  background-color: $home-button-background;
+  margin-right: 2px;
+  border-radius: 15px;
+  width: 52px;
+  height: 50px;
+}
+
+.grad {
+  background: -webkit-linear-gradient($buttons-background-2, $buttons-background-1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($buttons-background-2, $buttons-background-1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($buttons-background-2, $buttons-background-1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($buttons-background-2, $buttons-background-1); /* Standard syntax */
+}

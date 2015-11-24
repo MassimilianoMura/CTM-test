@@ -1,0 +1,95 @@
+@import 'modules/colors';
+
+.panel-heading{
+  height: 65px;
+  border:0;
+  border-radius:12px;
+  padding-top: 23px;
+}
+
+.title-style {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.panel {
+  color: white;
+  border: 0px;
+  border-radius:14px;
+}
+
+.panel-title {
+  padding-top: 1px;
+}
+
+.panel-collapse {
+   border: 0px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.chevron_toggleable {
+  color: $chevron;
+  margin-right: 10px;
+}
+
+.panel-body {
+  color: black;
+}
+
+.apr {
+  float: right;
+  display: inline-block;
+}
+
+.info-div {
+  padding: 20px;
+  width: 50%;
+  display: inline-block;
+}
+
+.info-paragraf {
+  border-right: 1px solid grey;
+  padding-right: 10px;
+}
+
+.img-div {
+  float: left;
+  margin-left: 20px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.cashback-div {
+  padding-top:10px;
+  display: inline-block;
+}
+
+.cashback-paragraf-1 {
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.cashback-paragraf-2 {
+  font-size: 2em;
+  font-weight: bold;
+}

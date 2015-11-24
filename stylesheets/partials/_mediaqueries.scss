@@ -1,0 +1,140 @@
+@media screen and (max-width: 1408px) {
+
+  .general-width {
+    width: 75%;
+  }
+
+}
+
+@media screen and (max-width: 1360px) {
+
+  .general-width {
+    width: 85%;
+  }
+
+  .nav-button {
+    margin-right: 2px;
+  }
+
+}
+
+@media screen and (max-width: 1160px) {
+
+  .general-width {
+    width: 90%;
+  }
+
+  .nav-button {
+    width: 142px;
+  }
+
+}
+
+@media screen and (max-width: 1090px) {
+
+  .general-width {
+    width: 95%;
+  }
+
+}
+
+@media screen and (max-width: 1030px) {
+
+  .general-width {
+    width: 95%;
+  }
+
+   .nav-button {
+    width: 140px;
+    padding: 18px 15px;
+  }
+
+}
+
+@media screen and (max-width: 1018px) {
+
+  .nav-button {
+    width: 137px;
+    padding: 18px 0;
+  }
+
+  .container-fluid {
+    padding-left:0;
+    padding-right:0;
+  }
+
+  #navbar-collapse-main {
+    padding-left:0;
+    padding-right:0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .general-width {
+    width: 98%;
+  }
+
+  .nav-button {
+    font-size: 0.8em;
+    width: 100px;
+    padding: 18px 0;
+  }
+
+}
+
+
+@media screen and (max-width: 810px) {
+
+  .general-width {
+    width: 95%;
+  }
+
+  .info-div {
+    padding: 0;;
+    width: 90%;
+    display: block;
+    width: 100%;
+  }
+
+  .info-paragraf {
+    border:0;
+    padding: 15px 5px;
+    margin: 0;
+  }
+
+  .img-div {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .cashback-div {
+    margin: 0 auto;
+    padding-top:10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-button {
+    margin-right: 3px;
+    width: 300px;
+  }
+
+  .home-button {
+    width: 300px;
+  }
+
+  .title-style {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+}
+

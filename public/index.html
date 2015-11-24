@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CTM test</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="general-width">
+
+
+<header>
+  <div class="logo"><img src="assets/ctm-logo.svg"></div>
+
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+            <i class="toggle-menu-icon fa fa-bars fa-2x"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav">
+          <li><div class="home-button"><a href="#"><i class="home-icon fa fa-home fa-2x"></i></a></div></li>
+          <li><div class="nav-button grad"><a href="#"><i class="fa fa-car"></i>Vehicles</a></div></li>
+          <li><div class="nav-button grad"><a href="#"><i class="fa fa-paw"></i>Home & pet</a></div></li>
+          <li><div class="nav-button grad"><a href="#"><i class="fa fa-credit-card-alt"></i>Finances</a></div></li>
+          <li><div class="nav-button grad"><a href="#"><i class="fa fa-heart"></i>Life</a></div></li>
+          <li><div class="nav-button grad"><a href="#"><i class="fa fa-envelope"></i>Business</a></div></li>
+          <li><div class="nav-button grad"><a href="#"><i class="fa fa-plane"></i>Travel</a></div></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<section id="list-wrap">
+
+  <script id="list-items" type="text/x-handlebars-template">
+    {{#each cards}}
+
+      <div class="panel">
+        <div class="panel-heading grad">
+          <h4>
+            <span class="title-style">{{name}}</span>
+            <a data-toggle="collapse" href="#{{this.code}}">
+              <i class="chevron_toggleable indicator glyphicon glyphicon-chevron-right  pull-left"></i>
+              </a>
+            <p class="apr title-style"> {{apr}} % APR </p>
+          </h4>
+        </div>
+        <div id="{{this.code}}" class="changeClass panel-collapse collapse">
+          <div class="panel-body">
+            <div>
+              <div class="img-div">
+                <img src="assets/{{code}}.png">
+              </div>
+              <div class="info-div"><p class="info-paragraf">{{information}}</p>
+              </div>
+              <div class="cashback-div">
+                <p class="cashback-paragraf-1">Cashback</p>
+                <p class="cashback-paragraf-2">£{{cashback}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {{/each}}
+  </script>
+
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/handlebars/handlebars.js"></script>
+<script type="text/javascript" src="js/getDataAndTemplate.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
